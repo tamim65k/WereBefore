@@ -6,7 +6,7 @@ export default function ContactPage() {
         {
             name: 'MD Emon Sarkar',
             id: '08',
-            image: 'https://i.pravatar.cc/300?img=12',
+            image: '/emon.jpeg',
             email: 'emon.sarkar@diu.edu.bd',
             phone: '+880 1XXX-XXXXXX',
             role: 'Project Lead',
@@ -30,7 +30,7 @@ export default function ContactPage() {
         {
             name: 'Montasir Hasan Peal',
             id: '27',
-            image: 'https://i.pravatar.cc/300?img=68',
+            image: '/peal.jpeg',
             email: 'montasir.peal@diu.edu.bd',
             phone: '+880 1XXX-XXXXXX',
             role: 'UI/UX Designer',
@@ -58,9 +58,22 @@ export default function ContactPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
                 {/* Team Section */}
                 <div className="mb-16 md:mb-24">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-slate-900">Meet Our Team</h2>
-                        <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                    <div className="text-center mb-12 relative">
+                        {/* Animated background elements */}
+                        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                            <div className="absolute -top-10 left-1/4 w-20 h-20 bg-purple-200 rounded-full opacity-20 animate-float"></div>
+                            <div className="absolute top-5 right-1/4 w-16 h-16 bg-blue-200 rounded-full opacity-30 animate-float-delayed"></div>
+                            <div className="absolute top-0 left-1/2 w-12 h-12 bg-indigo-200 rounded-full opacity-25 animate-pulse"></div>
+                        </div>
+
+                        <h2 className="relative text-3xl sm:text-4xl md:text-5xl font-bold mb-4 animate-slide-in-from-top">
+                            <span className="inline-block bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 bg-clip-text text-transparent bg-300% animate-gradient-x hover:animate-text-glow transition-all duration-500">
+                                Meet Our Team
+                            </span>
+                            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full animate-expand-width"></div>
+                        </h2>
+
+                        <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-slide-in-from-bottom opacity-0 animation-delay-500">
                             Dedicated professionals from the Department of CSE, DIU
                         </p>
                     </div>

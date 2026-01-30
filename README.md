@@ -1,8 +1,8 @@
-# WereBefore - Fashion E-Commerce Platform 🛍️
+# WearBefore - Fashion E-Commerce Platform 🛍️
 
 <div align="center">
 
-![WereBefore Logo](https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=200&fit=crop&crop=center)
+![WearBefore Logo](https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=200&fit=crop&crop=center)
 
 **A modern, full-featured fashion e-commerce website built with Next.js 15**
 
@@ -71,10 +71,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/tamim65k/WereBefore.git
+git clone https://github.com/tamim65k/WearBefore.git
 
 # Navigate to project directory
-cd WereBefore
+cd WearBefore
 
 # Install dependencies
 npm install
@@ -99,7 +99,7 @@ npm start
 ## 📁 Project Structure
 
 ```
-WereBefore/
+WearBefore/
 ├── 📂 app/                    # Next.js app router pages
 │   ├── 📂 account/           # User account pages
 │   ├── 📂 auth/              # Authentication (login/register)
@@ -162,7 +162,7 @@ images: {
 
 ### Deploy to Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tamim65k/WereBefore)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tamim65k/WearBefore)
 
 **Or manually:**
 
@@ -257,7 +257,7 @@ npm start
 - @next/swc version mismatch warning
 - Browser extension hydration warnings
 
-See [Issues](https://github.com/tamim65k/WereBefore/issues) for full list.
+See [Issues](https://github.com/tamim65k/WearBefore/issues) for full list.
 
 ## 📊 Performance
 
@@ -292,9 +292,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **⭐ If you like this project, please give it a star on GitHub! ⭐**
 
-Made with ❤️ by [Team WereBefore](https://github.com/tamim65k/WereBefore)
+Made with ❤️ by [Team WearBefore](https://github.com/tamim65k/WearBefore)
 
-[🔝 Back to Top](#werebefore---fashion-e-commerce-platform-)
+[🔝 Back to Top](#wearbefore---fashion-e-commerce-platform-)
 
 </div>
 

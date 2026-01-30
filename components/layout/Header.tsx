@@ -45,7 +45,7 @@ export default function Header() {
                 {/* Top Banner */}
                 {showBanner && (
                     <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-2 text-sm transition-all duration-500">
-                        Free shipping on orders over $100 | Use code: WEREBEFORE10 for 10% off
+                        Free shipping on orders over $100 | Use code: WEARBEFORE10 for 10% off
                     </div>
                 )}
 
@@ -53,8 +53,19 @@ export default function Header() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         {/* Logo */}
-                        <Link href="/" className="flex items-center space-x-2">
-                            <div className="text-2xl font-bold text-black">WereBefore</div>
+                        <Link href="/" className="flex items-center space-x-2 group relative overflow-hidden">
+                            <div className="relative">
+                                {/* Background glow effect */}
+                                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 opacity-0 group-hover:opacity-20 blur-lg transition-all duration-700 transform scale-110"></div>
+
+                                {/* Main logo text */}
+                                <div className="relative text-2xl font-bold text-black group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-purple-600 group-hover:via-blue-600 group-hover:to-indigo-600 group-hover:bg-clip-text transition-all duration-500 transform group-hover:scale-105 animate-subtle-bounce">
+                                    WearBefore
+                                </div>
+
+                                {/* Subtle underline animation */}
+                                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-500 ease-out"></div>
+                            </div>
                         </Link>
 
                         {/* Desktop Navigation */}
